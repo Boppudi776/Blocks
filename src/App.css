@@ -1,0 +1,28 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+  border-radius: 5px;
+  min-height: 200px;
+  padding: 10px;
+}
+
+.right-container {
+  border-left: 1px solid gray;
+  padding: 0 0 0 10px;
+}
+.block {
+  width: 45px;
+  border: 2px solid darkgray;
+}
+.block.active {
+  border: 2px solid black;
+}
+.field-name {
+  flex:1 1 45%;
+}
